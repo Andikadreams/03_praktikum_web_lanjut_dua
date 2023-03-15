@@ -10,7 +10,7 @@
             <th>Nama</th>
             <th>Status</th>
         </tr>
-        @foreach($data_product as $p)
+        @foreach($product as $p)
     <tr>
         <td>{{$p['id']}}</td>
         <td>{{$p['nama']}}</td>
